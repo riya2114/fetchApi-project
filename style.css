@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+  h1 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(250, 24, 43);
+  }
+  #searchForm {
+    margin-inline: 35vw;
+    margin-block: 3rem;
+    display: flex;
+  }
+  #searchForm input {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    font-size: 1rem;
+    border: none;
+  }
+  #searchForm input:focus {
+    outline: none;
+    border: 2px solid blue;
+  }
+  #submitButton {
+    height: 3rem;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(189, 6, 61);
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 1rem;
+    border: none;
+  }
+  #submitButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(189, 6, 61);
+  }
+  .cards-parent {
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-inline: 2rem;
+  }
+  
+  .card {
+    height: auto;
+    width: 17rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(51, 50, 50, 0.25) 0px 54px 55px,
+      rgba(29, 29, 29, 0.12) 0px -12px 30px, rgba(104, 102, 102, 0.12) 0px 4px 6px,
+      rgba(56, 55, 55, 0.17) 0px 12px 13px, rgba(53, 52, 52, 0.09) 0px -3px 5px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }
+  .card-image {
+    width: 100%;
+    height: 14rem;
+    object-fit: fill;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+  .movie-type span {
+    background-color: rgb(189, 43, 43);
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+  }
+  #title{
+    color: white;
+  }
+  #year{
+    color: white;
+  }
+  h4{
+    color: #fff;
+  }
